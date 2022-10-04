@@ -1,0 +1,1 @@
+!function(a){"use strict";a.gsap.from(h1,{duration:.25,x:-100,aplha:0}),a.gsap.from(h2,{duration:.25,x:-100,alpha:0,delay:.15})}(gsap);
