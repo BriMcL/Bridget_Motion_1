@@ -11,6 +11,6 @@ shopBtn.addEventListener("mouseover", function(){
     gsap.to("#shop-btn", {duration:1,scale:2});
 })
 
-shopBtn.addEventListener("mouseoutr", function(){
+shopBtn.addEventListener("mouseout", function(){
     gsap.to("#shop-btn", {duration:1,scale:1});
 })
