@@ -5,7 +5,6 @@
     height: 80vh;
 
     #overlay{
-        background-color: rbga(var(--blackO),0.5);
         height:100%;
         display:flex;
         justify-content:center;
@@ -31,7 +30,8 @@
             
             button{
                 border:none;
-                background-color: var(--white);
+                border-radius: 10px;
+                background-color:rgba(var(--whiteO));
                 padding: 30px 30px;
                 font-size: rem-calc(25);
                 font-family: 'Montserrat', sans-serif;

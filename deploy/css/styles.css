@@ -12,9 +12,9 @@ html {
 ============= */
 :root {
   --white: #fff;
-  --whiteO:255,255,255;
+  --whiteO:255,255,255,0.75;
   --black: #000;
-  --blackO:0,0,0;
+  --blackO:0,0,0,0.75;
   --green: #1e5631;
 }
 
@@ -404,7 +404,6 @@ textarea {
   height: 80vh;
 }
 #hero #overlay {
-  background-color: rbga(var(--blackO), 0.5);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -427,7 +426,8 @@ textarea {
 }
 #hero #overlay section button {
   border: none;
-  background-color: var(--white);
+  border-radius: 10px;
+  background-color: rgba(var(--whiteO));
   padding: 30px 30px;
   font-size: 1.5625rem;
   font-family: "Montserrat", sans-serif;
