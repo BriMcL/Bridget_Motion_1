@@ -1,0 +1,46 @@
+#hero{
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    #overlay{
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+       
+        section{
+            
+            div{
+                h1{
+                    color:var(--white);
+                    font-family: 'Bebas Neue', cursive;
+                    font-weight: 400;
+                    font-size: rem-calc(90);
+                }
+                h2{
+                    color:var(--white);
+                    font-family: 'Bebas Neue',cursive;
+                    font-weight: 400;
+                    font-size: rem-calc(40);
+                }
+                margin-bottom: 20px;
+            }
+            
+            button{
+                border:none;
+                border-radius: 10px;
+                background-color:rgba(var(--whiteO));
+                padding: 30px 30px;
+                font-size: rem-calc(25);
+                font-family: 'Montserrat', sans-serif;
+                color: var(--green);
+                i{
+                    margin-left: 16px;
+                }
+            }
+        }
+           
+        }
+    }
