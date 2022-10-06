@@ -12,9 +12,13 @@ html {
 ============= */
 :root {
   --white: #fff;
+<<<<<<< Updated upstream
   --whiteO: 255,255,255;
   --black: #000;
   --red: #c51f0d;
+=======
+  --black: #000;
+>>>>>>> Stashed changes
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -366,6 +370,7 @@ textarea {
 /* =============
     Footer
 ============= */
+<<<<<<< Updated upstream
 #hero {
   background-image: url("../img/hero.jpg");
   height: 80vh;
@@ -422,3 +427,5 @@ textarea {
 #hero #overlay button i {
   margin-left: 8px;
 }
+=======
+>>>>>>> Stashed changes
