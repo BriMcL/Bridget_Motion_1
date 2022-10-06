@@ -2,28 +2,57 @@ import { gsap } from "gsap";
 
 gsap.set("button i",{transformOrigin:"center bottom"});
 
-gsap.from("#line-1",{duration:1,y:-100,alpha:0});
-gsap.from("#line-2",{duration:1,y:-100,alpha:0,delay:0.15});  
+function heroAnimation(){
 
-gsap.from("#shop-btn",{duration:1,y:100,alpha:1, delay:0.15}); 
-gsap.from("button i",{duration:0.5,alpha:0,rotation:90,delay:0.5}); 
+  var tl = gsap.timeline();
+  tl.from("#line-1",{duration:1,y:-100,alpha:0})
+  .from("#line-2",{duration:1,y:-100,alpha:0})
+  .from("#shop-btn",{duration:0.75,y:100,alpha:0})
+  .from("button i",{duration:0.5,alpha:0,rotation:90}); 
+  return tl;
+}
+
+var mainTL=gsap.timeline();
+mainTL.add(heroAnimation());
+
+
+let mm = gsap.matchMedia();
+
+var buttonSize = 1;
+
+
+mm.add("(min-width: 800px)", () => {
+  // desktop setup code here...
+  buttonSize = 2;
+});
+
+mm.add("(max-width: 799px)", () => {
+  // mobile setup code here...
+  buttonSize = 1;
+});
+
+var buttonAnimation = gsap.timeline({paused:true});
+buttonAnimation.to("#shop-btn", {duration:0.25, scale:buttonSize})
+  .to("#shop-btn i",{duration:0.25,rotateY:360})
+  .to("#line-1",{duration:0.25,alpha:0,y:50})
+  .to("#line-2",{duration:0.25,alpha:0,y:50});
 
 let button = document.querySelector("#shop-btn");
-button.addEventListener("mouseover",function(){
-    gsap.to("#shop-btn",{duration:0.25,scale:1.25, opacity:100});
+button.addEventListener("mouseover",{duration:0.25},function(){
+  buttonAnimation.play();
 
-    gsap.to("#shop-btn i",{duration:1,rotateY:360});
-
-    gsap.to("#line-1",{duration:0.25,alpha:0,y:50});
-    gsap.to("#line-2",{duration:0.25,alpha:0,y:50});
-})
-
+});
 
 button.addEventListener("mouseout",function(){
-    gsap.to("#shop-btn",{duration:0.25,scale:1, opacity:0.75});
+  buttonAnimation.reverse();
+});
 
-    gsap.to("#shop-btn i",{duration:1,rotateY:0});
 
-    gsap.to("#line-1",{duration:0.25,alpha:1,y:0});
-    gsap.to("#line-2",{duration:0.25,alpha:1,y:0});
-})
+
+
+
+
+
+
+
+
