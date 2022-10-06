@@ -17,10 +17,6 @@ var mainTL=gsap.timeline();
 mainTL.add(heroAnimation());
 
 
-<<<<<<< Updated upstream
-var buttonAnimation = gsap.timeline({paused:true});
-buttonAnimation.to("#trail-btn",{duration:0.25, scale:2})
-=======
 let mm = gsap.matchMedia();
 
 var buttonSize = 1;
@@ -41,7 +37,6 @@ mm.add("(max-width: 799px)", () => {
 
 var buttonAnimation = gsap.timeline({paused:true});
 buttonAnimation.to("#trail-btn",{duration:0.25, scale:buttonSize})
->>>>>>> Stashed changes
     .to("#trail-btn i",{duration:0.25, rotateY: 180})
     .to("#first-line",{duration:0.25, alpha:0, y:50})
     .to("#second-line",{duration:0.25, alpha:0, y:25});
