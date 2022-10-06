@@ -8,6 +8,10 @@
   "repository": {},
   "private": true,
   "dependencies": {
+<<<<<<< Updated upstream
     "gsap": "^3.11.2"
+=======
+    "gsap": "^3.11.3"
+>>>>>>> Stashed changes
   }
 }
