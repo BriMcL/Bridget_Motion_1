@@ -439,6 +439,25 @@ textarea {
   margin-left: 16px;
 }
 
+#aboutMe {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#aboutMe h1 {
+  color: var(--red);
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 5.625rem;
+}
+#aboutMe p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+
 #hero-2 {
   height: 90vh;
   display: flex;

@@ -1,0 +1,17 @@
+#aboutMe{
+    width: 50vw;
+    height: 80vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    h1{
+        color:var(--red);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: rem-calc(90);}
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: rem-calc(30);}
+}
+
