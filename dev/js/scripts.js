@@ -19,7 +19,8 @@ function heroAnimation(){
 
 var mainTL=gsap.timeline();
 mainTL.add(heroAnimation())
-      .add(quoteAnimation());
+      .add(quoteAnimation())
+      .add(welcomeAnimation());
 
 
 let mm = gsap.matchMedia();
@@ -55,6 +56,14 @@ button.addEventListener("mouseover",function(){
 button.addEventListener("mouseout",function(){
   buttonTL.reverse();
 })
+
+function welcomeAnimation(){
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#aboutMe", scrub:true,markers:false, end:"top 30%"}});
+    tl.from("#aboutMe aside div",{duration:1, scale:3},"startWelcome")
+    .from("#aboutMe h1",{duration:1,x:"-=-200%", alpha:0},"startWelcome")
+    .from("#aboutMe p",{duration:1,x:"-=200%", alpha:0},"startWelcome")
+    return tl;
+}
 
 function quoteAnimation(){
   var tl =gsap.timeline({scrollTrigger:{trigger:"#hero-2", scrub:true, end:"top 40%", start:"top 80%"}});
@@ -106,20 +115,13 @@ function quoteAnimation(){
 // }
 
 
-// function peakAnimation(){
-//     var tl = gsap.timeline({scrollTrigger:{trigger:"#hiking", scrub:true,markers:false, end:"top 30%"}});
-//     tl.from("#hiking aside div",{duration:1, scale:3, alpha:0},"startPeak")
-//     .from("#hiking h1",{duration:1,x:"-=200%", alpha:0},"startPeak")
-//     .from("#hiking p",{duration:1,x:"-=200%", alpha:0},"startPeak")
-//     return tl;
-// }
+
 
 
 
 // var mainTimeline = gsap.timeline();
 // mainTimeline.add(heroAnimation())
 //     .add(boxAnimation())
-//     .add(peakAnimation())
 
  
 
