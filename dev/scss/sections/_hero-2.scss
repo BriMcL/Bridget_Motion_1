@@ -4,7 +4,20 @@
     align-items: center;
     justify-content: center;
     position: relative;
-
+    text-align: center;
+    color: var(--black);
+    h1{
+        color:var(--blue);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: rem-calc(80);
+    }
+    h2{
+        color:var(--yellow);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: rem-calc(50);
+    }
     @include md{
         height: 80vh;
     }
@@ -13,24 +26,8 @@
         height: 70vh;
     }
 
-    >div{
-        text-align: center;
-        color: var(--black);
-
-        h1{
-            font-family: 'Bebas Neue', cursive;
-            font-weight: 400;
-            font-size: rem-calc(80);
-        }
-        h2{
-            font-family: 'Bebas Neue', cursive;
-            font-weight: 200;
-            font-size: rem-calc(80);
-        }
-    }
-
     #bg-img{
-        background-image: url("../img/heroes/hero-2.jpg");
+        background-image: url("../img/hero-2.jpg");
         background-size: cover;
         background-position: bottom;
         height: 100%;
