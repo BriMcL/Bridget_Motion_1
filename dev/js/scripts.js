@@ -47,7 +47,6 @@ button.addEventListener("mouseover",{scale:1.25,duration:0.25},function(){
 button.addEventListener("mouseout",function(){
   buttonAnimation.reverse();
 });
-
  
 
 
