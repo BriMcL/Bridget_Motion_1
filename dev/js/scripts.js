@@ -66,13 +66,19 @@ function welcomeAnimation(){
 }
 
 function quoteAnimation(){
-  var tl =gsap.timeline({scrollTrigger:{trigger:"#hero-2", scrub:true, end:"top 40%", start:"top 80%"}});
+  var tl =gsap.timeline({scrollTrigger:{trigger:"#hero-2", scrub:true, markers: false, end:"top 20%", start:"top 85%"}});
   tl.from("#bg-img",{duration:5, clipPath:"inset(0 50%)", ease:"back.out(1,0.3)"}, "startSplit")
   .from("#hero-2 h1",{duration:2, clipPath:"inset(0 50%)"},"-=25%","startSplit")
   .from("#color",{duration:2, clipPath:"inset(0 50%)"},"-=25%","startSplit")
-  .from("#hero-2 h2",{duration:2, clipPath:"inset(0 50%)"},"-=5%");
+  .from("#hero-2 h2",{duration:2, clipPath:"inset(0 50%)"},"-=5%")
+  return tl;
+}function wonderAnimation(){
+  var tl =gsap.timeline({scrollTrigger:{trigger:"#hero-2", scrub:true,markers:true, end:"top 40%", start:"top 80%"}});
+  tl.from("#bg-img",{duration:5, clipPath:"inset(0 50%)"})
+  .from("#hero-2 h1",{duration:1, scale:3, alpha:0},"-=50%")
   return tl;
 }
+
 
 
 
