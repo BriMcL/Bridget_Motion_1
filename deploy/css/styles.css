@@ -428,7 +428,7 @@ textarea {
 #hero #overlay section button {
   border: none;
   border-radius: 10px;
-  background-color: var(--red);
+  background-color: var(--black);
   padding: 30px 30px;
   font-size: 1.5625rem;
   font-family: "Montserrat", sans-serif;

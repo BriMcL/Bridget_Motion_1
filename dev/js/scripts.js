@@ -32,21 +32,26 @@ mm.add("(max-width: 799px)", () => {
   buttonSize = 1;
 });
 
-var buttonAnimation = gsap.timeline({paused:true});
-buttonAnimation.to("#work-btn", {duration:0.25, scale:buttonSize})
+
+let button = document.querySelector("#work-btn");
+
+var buttonTL = gsap.timeline({paused:true});
+buttonTL.to("#work-btn", {duration:0.25, backgroundColor:"rgb(206, 3, 3)"})
   .to("#work-btn i",{duration:0.25,rotateY:360})
   .to("#line-1",{duration:0.25,alpha:0,y:50})
   .to("#line-2",{duration:0.25,alpha:0,y:50});
 
-let button = document.querySelector("#work-btn");
-button.addEventListener("mouseover",{scale:1.25,duration:0.25},function(){
-  buttonAnimation.play();
+
+button.addEventListener("mouseover",function(){
+  buttonTL.play();
 
 });
 
 button.addEventListener("mouseout",function(){
-  buttonAnimation.reverse();
-});
+  buttonTL.reverse();
+})
+
+ 
  
 
 
