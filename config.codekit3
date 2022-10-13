@@ -21,6 +21,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/hero-2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/hero-2.html",
+      "oF" : 0
+    },
     "\/deploy\/hero.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -65,9 +73,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/deploy\/hero-2.html",
+      "oF" : 2
     },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
@@ -77,12 +85,12 @@
       "oAP" : "\/deploy\/hero.html",
       "oF" : 3
     },
-    "\/dev\/content\/section-2" : {
+    "\/dev\/content\/section-2.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/section-2",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-2.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -286,6 +294,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_hero-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -296,6 +319,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
