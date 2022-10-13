@@ -440,22 +440,69 @@ textarea {
 }
 
 #aboutMe {
-  width: 50vw;
-  height: 80vh;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hiking .";
+  margin: 24px 0;
+}
+@media (min-width: 768px) {
+  #aboutMe {
+    grid-template-columns: auto 90vw auto;
+    margin: 48px 0;
+  }
+}
+@media (min-width: 1024px) {
+  #aboutMe {
+    grid-template-columns: auto 80vw auto;
+    margin: 64px 0;
+  }
+}
+@media (min-width: 1440px) {
+  #aboutMe {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#aboutMe > div {
+  grid-area: hiking;
+}
+@media (min-width: 768px) {
+  #aboutMe > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#aboutMe > div section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 16px;
 }
-#aboutMe h1 {
+#aboutMe > div section h1 {
   color: var(--red);
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   font-size: 5.625rem;
 }
-#aboutMe p {
+#aboutMe > div section p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.875rem;
+}
+#aboutMe > div aside {
+  height: 100vh;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #aboutMe > div aside {
+    height: 70vh;
+  }
+}
+#aboutMe > div aside div {
+  background-image: url("../img/profile.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
 }
 
 #hero-2 {
@@ -465,19 +512,20 @@ textarea {
   justify-content: center;
   position: relative;
   text-align: center;
-  color: var(--black);
 }
 #hero-2 h1 {
-  color: var(--blue);
+  color: var(--red);
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   font-size: 5rem;
+  margin: 30px;
 }
 #hero-2 h2 {
-  color: var(--yellow);
+  color: var(--blue);
   font-family: "Bebas Neue", cursive;
   font-weight: 200;
   font-size: 3.125rem;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   #hero-2 {
@@ -488,6 +536,10 @@ textarea {
   #hero-2 {
     height: 70vh;
   }
+}
+#hero-2 #color {
+  background-color: rgba(var(--whiteO));
+  border-radius: 40px;
 }
 #hero-2 #bg-img {
   background-image: url("../img/hero-2.jpg");
