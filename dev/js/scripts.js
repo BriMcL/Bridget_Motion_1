@@ -12,6 +12,7 @@ function heroAnimation(){
   return tl;
 }
 
+
 var mainTL=gsap.timeline();
 mainTL.add(heroAnimation());
 
@@ -46,6 +47,8 @@ button.addEventListener("mouseover",{duration:0.25},function(){
 button.addEventListener("mouseout",function(){
   buttonAnimation.reverse();
 });
+
+ 
 
 
 
