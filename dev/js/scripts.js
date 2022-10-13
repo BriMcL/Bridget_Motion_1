@@ -39,7 +39,7 @@ buttonAnimation.to("#shop-btn", {duration:0.25, scale:buttonSize})
   .to("#line-2",{duration:0.25,alpha:0,y:50});
 
 let button = document.querySelector("#shop-btn");
-button.addEventListener("mouseover",{duration:0.25},function(){
+button.addEventListener("mouseover",{scale:1.25,duration:0.25},function(){
   buttonAnimation.play();
 
 });
