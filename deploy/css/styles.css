@@ -437,3 +437,44 @@ textarea {
 #hero #overlay section button i {
   margin-left: 16px;
 }
+
+#hero-2 {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+@media (min-width: 768px) {
+  #hero-2 {
+    height: 80vh;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 {
+    height: 70vh;
+  }
+}
+#hero-2 > div {
+  text-align: center;
+  color: var(--black);
+}
+#hero-2 > div h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+}
+#hero-2 > div h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 200;
+  font-size: 5rem;
+}
+#hero-2 #bg-img {
+  background-image: url("../img/heroes/hero-2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
