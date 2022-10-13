@@ -61,6 +61,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/hero-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/hero-2.html",
+      "oF" : 0
+    },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -68,6 +76,14 @@
       "oA" : 0,
       "oAP" : "\/deploy\/hero.html",
       "oF" : 3
+    },
+    "\/dev\/content\/section-2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/section-2",
+      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
