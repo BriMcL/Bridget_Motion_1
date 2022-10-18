@@ -21,22 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/hero-2.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/hero-2.html",
-      "oF" : 0
-    },
-    "\/deploy\/hero.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/hero.html",
-      "oF" : 0
-    },
     "\/deploy\/img\/hero-2.jpg" : {
       "ft" : 16384,
       "iS" : 110734,
@@ -76,6 +60,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/reveal.jpg" : {
+      "ft" : 16384,
+      "iS" : 311705,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/reveal.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -107,7 +104,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/hero.html",
       "oF" : 3
     },

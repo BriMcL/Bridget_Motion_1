@@ -1,14 +1,41 @@
 #hero{
-    background-image: url("../img/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
+    
+    height: 100vh;
+    position: relative;
+    
+    #newImg{
+        background-image: url("../img/reveal.jpg");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0;
+        left: 0;
+        z-index: 2;
+        // display: none;
+    }
 
+    #oldImg{
+        background-image: url("../img/hero.jpg");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0;
+        left: 0;
+        z-index: 1;
+    }
+    
+   
     #overlay{
         height:100%;
         display:flex;
         justify-content:center;
         align-items: center;
+        position: relative;
+        z-index: 100;
        
         section{
             
@@ -40,7 +67,7 @@
                     margin-left: 16px;
                 }
             }
+    
         }
-           
         }
     }

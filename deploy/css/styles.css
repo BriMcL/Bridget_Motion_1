@@ -400,16 +400,38 @@ textarea {
     Footer
 ============= */
 #hero {
+  height: 100vh;
+  position: relative;
+}
+#hero #newImg {
+  background-image: url("../img/reveal.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#hero #oldImg {
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 #hero #overlay {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 100;
 }
 #hero #overlay section div {
   margin-bottom: 20px;
@@ -519,6 +541,7 @@ textarea {
   font-weight: 400;
   font-size: 5rem;
   margin: 30px;
+  line-height: 50px;
 }
 #hero-2 h2 {
   color: var(--blue);
@@ -526,6 +549,7 @@ textarea {
   font-weight: 200;
   font-size: 3.125rem;
   margin-bottom: 30px;
+  line-height: 50px;
 }
 @media (min-width: 768px) {
   #hero-2 {
@@ -534,7 +558,7 @@ textarea {
 }
 @media (min-width: 1024px) {
   #hero-2 {
-    height: 70vh;
+    height: 100vh;
   }
 }
 #hero-2 #color {
