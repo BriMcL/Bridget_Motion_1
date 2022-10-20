@@ -396,6 +396,72 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: var(--white);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header > div {
+  display: grid;
+  grid-template-areas: "burger survival" "nav nav";
+  grid-template-columns: 20% auto;
+}
+@media (min-width: 1024px) {
+  header > div {
+    grid-template-areas: "nav survival";
+    grid-template-columns: 20% auto;
+  }
+}
+header > div #button-container {
+  grid-area: survival;
+  padding: 10px;
+  text-align: right;
+}
+header > div #button-container button {
+  background-color: var(--yellow);
+  border-radius: 23px;
+  color: var(--black);
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  transition: 0.25s;
+}
+header > div #button-container button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+header > div #burger-container {
+  align-items: center;
+  display: flex;
+  grid-area: burger;
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  header > div #burger-container {
+    display: none !important;
+  }
+}
+header > div #burger-container i {
+  cursor: pointer;
+  font-size: 1.875rem;
+}
+header > div #nav-container {
+  background-color: var(--charcoal);
+  display: none;
+  grid-area: nav;
+  padding: 20px 10px 10px;
+}
+@media (min-width: 1024px) {
+  header > div #nav-container {
+    background-color: var(--white);
+    display: block !important;
+  }
+}
+
 /* =============
     Footer
 ============= */

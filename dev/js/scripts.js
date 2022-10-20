@@ -73,12 +73,6 @@ function quoteAnimation(){
   .from("#hero-2 h2",{duration:2, clipPath:"inset(0 50%)"},"-=5%")
   return tl;}
 
- 
-
-
-
-
-
 
 
 
