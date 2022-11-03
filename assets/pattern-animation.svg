@@ -1,0 +1,29 @@
+<svg width="1264" height="611" viewBox="0 0 1264 611" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pattern-animation">
+<rect width="1264" height="611" fill="white"/>
+<g id="lighter">
+<g id="Ellipse 1">
+<circle cx="482.995" cy="277.253" r="70" transform="rotate(45 482.995 277.253)" fill="#99CC66" fill-opacity="0.5"/>
+<circle cx="482.995" cy="277.253" r="70" transform="rotate(45 482.995 277.253)" stroke="black"/>
+</g>
+<g id="Ellipse 3">
+<circle cx="598.253" cy="161.995" r="70" transform="rotate(45 598.253 161.995)" fill="#99CC66" fill-opacity="0.5"/>
+<circle cx="598.253" cy="161.995" r="70" transform="rotate(45 598.253 161.995)" stroke="black"/>
+</g>
+<g id="Ellipse 2">
+<circle cx="595.425" cy="389.683" r="70" transform="rotate(45 595.425 389.683)" fill="#99CC66" fill-opacity="0.5"/>
+<circle cx="595.425" cy="389.683" r="70" transform="rotate(45 595.425 389.683)" stroke="black"/>
+</g>
+<g id="Ellipse 4">
+<circle cx="710.683" cy="274.425" r="70" transform="rotate(45 710.683 274.425)" fill="#99CC66" fill-opacity="0.5"/>
+<circle cx="710.683" cy="274.425" r="70" transform="rotate(45 710.683 274.425)" stroke="black"/>
+</g>
+</g>
+<g id="darker">
+<circle id="Ellipse 5" cx="515.339" cy="194.339" r="66.5" transform="rotate(90 515.339 194.339)" stroke="#451A1A" stroke-width="7"/>
+<circle id="Ellipse 6" cx="678.339" cy="194.339" r="66.5" transform="rotate(90 678.339 194.339)" stroke="#451A1A" stroke-width="7"/>
+<circle id="Ellipse 7" cx="515.339" cy="353.339" r="66.5" transform="rotate(90 515.339 353.339)" stroke="#451A1A" stroke-width="7"/>
+<circle id="Ellipse 8" cx="678.339" cy="353.339" r="66.5" transform="rotate(90 678.339 353.339)" stroke="#451A1A" stroke-width="7"/>
+</g>
+</g>
+</svg>
