@@ -27,13 +27,15 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 0
+    "\/assets\/SchuylkillCenter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/SchuylkillCenter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
@@ -46,32 +48,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/deploy\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/dev\/content\/drawSVG.kit" : {
+    "\/dev\/content\/Logo-Custom.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/drawSVG.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
+      "oAP" : "\/dev\/content\/Logo-Custom.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -88,14 +70,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
     "\/dev\/global\/header.kit" : {
@@ -307,7 +281,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/styles.css",
+      "oAP" : "\/deploy\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
