@@ -13,6 +13,8 @@ function foundAnimation(){
     .from("#bottomstemright",{duration:1, drawSVG: 0}, "same")
     .from("#topstems",{duration:1, drawSVG: 0}, "go")
     .from("#line",{duration:2.5, drawSVG: 0}, "go")
+    .fromTo("#leaf", {backgroundColor: 'white'}, {
+        duration: 3, backgroundColor: '#899781', ease:"linear"})
     
     return tl;
 

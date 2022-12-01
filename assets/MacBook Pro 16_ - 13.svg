@@ -27,5 +27,6 @@
 <path id="Vector 5" d="M311.5 583L343.5 414.5" stroke="black" stroke-width="5"/>
 <path id="Vector 6" d="M262.5 579L226 486" stroke="black" stroke-width="5"/>
 <path id="Vector 7" d="M355.5 578L428 497" stroke="black" stroke-width="5"/>
+<path id="path" d="M233 22.5C265.667 81.1667 352.3 190.9 437.5 160.5C413.667 209.333 339.4 296.8 233 256C270 295.167 362.7 372.2 437.5 367C416.167 404 341 474.9 211 462.5C216.833 493.667 245.4 558.2 313 567" stroke="black"/>
 </g>
 </svg>
