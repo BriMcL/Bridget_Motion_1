@@ -9,6 +9,16 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/assets\/Desktop - 4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/Desktop - 4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/DrawSVG.fig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -17,31 +27,51 @@
       "oAP" : "\/assets\/DrawSVG.fig",
       "oF" : 0
     },
-    "\/assets\/line-animation.svg" : {
+    "\/assets\/fill.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/line-animation.svg",
+      "oAP" : "\/assets\/fill.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/MacBook Pro 16_ - 13.svg" : {
+    "\/assets\/flame.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/MacBook Pro 16_ - 13.svg",
+      "oAP" : "\/assets\/flame.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/SchuylkillCenter.svg" : {
+    "\/assets\/flame2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/SchuylkillCenter.svg",
+      "oAP" : "\/assets\/flame2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/Logo-Found.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/Logo-Found.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/outline.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/outline.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -78,12 +108,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/Logo-Custom.kit" : {
+    "\/dev\/content\/logo-found.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/Logo-Custom.html",
+      "oAP" : "\/dev\/content\/logo-found.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {

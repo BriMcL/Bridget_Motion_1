@@ -13,9 +13,11 @@ function foundAnimation(){
     .from("#bottomstemright",{duration:1, drawSVG: 0}, "same")
     .from("#topstems",{duration:1, drawSVG: 0}, "go")
     .from("#line",{duration:2.5, drawSVG: 0}, "go")
-    .fromTo("#leaf", {backgroundColor: 'white'}, {
-        duration: 3, backgroundColor: '#899781', ease:"linear"})
-    
+    .to("#leaf", {fill: "#FFBF31", duration: 1})
+    .to("#leaf", {fill: "#D65325", duration: 1})
+    .to("#leaf", {fill: "#94C0FF", duration: 1})
+    .to("#leaf", {fill: "#145028", duration: 1})
+
     return tl;
 
 }
